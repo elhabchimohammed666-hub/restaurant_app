@@ -1,0 +1,73 @@
+export const categories = ['Tout', 'Nos favoris', 'Entrées', 'Plats', 'Desserts', 'Boissons'];
+
+export const dishes = [
+  {
+    id: 'burrata',
+    name: 'Burrata des Pouilles',
+    category: 'Entrées',
+    description: 'Tomates anciennes, pêches rôties, basilic frais & huile d’olive.',
+    price: 14,
+    rating: '4.9',
+    tag: 'Le coup de cœur',
+    image: 'photo-1608039829572-78524f79c4c7',
+    favorite: true,
+  },
+  {
+    id: 'gnocchi',
+    name: 'Gnocchi maison',
+    category: 'Plats',
+    description: 'Gnocchi de pomme de terre, crème de parmesan & sauge croustillante.',
+    price: 22,
+    rating: '4.8',
+    tag: 'Fait maison',
+    image: 'photo-1473093295043-cdd812d0e601',
+    favorite: true,
+  },
+  {
+    id: 'salade',
+    name: 'La belle salade',
+    category: 'Plats',
+    description: 'Pêches grillées, chèvre frais, noix torréfiées & miel du maquis.',
+    price: 19,
+    rating: '4.7',
+    tag: 'De saison',
+    image: 'photo-1512621776951-a57141f2eefd',
+    favorite: false,
+  },
+  {
+    id: 'tarte',
+    name: 'Tarte fine aux figues',
+    category: 'Desserts',
+    description: 'Figues fraîches, crème légère à la vanille & éclats de pistache.',
+    price: 11,
+    rating: '5.0',
+    tag: 'À partager',
+    image: 'photo-1488477181946-6428a0291777',
+    favorite: true,
+  },
+  {
+    id: 'limonade',
+    name: 'Limonade du jardin',
+    category: 'Boissons',
+    description: 'Citron de Menton, romarin frais & juste ce qu’il faut de pétillant.',
+    price: 7,
+    rating: '4.8',
+    tag: 'Sans alcool',
+    image: 'photo-1513558161293-cdab765edfd7',
+    favorite: false,
+  },
+  {
+    id: 'tartare',
+    name: 'Tartare de bœuf',
+    category: 'Entrées',
+    description: 'Bœuf français, câpres, échalotes & pommes grenailles dorées.',
+    price: 16,
+    rating: '4.9',
+    tag: 'Signature',
+    image: 'photo-1547592180-85f173990554',
+    favorite: false,
+  },
+];
+
+export const imageUrl = (id, width = 720) =>
+  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${width}&q=85`;

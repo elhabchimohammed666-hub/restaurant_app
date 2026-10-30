@@ -1,3 +1,6 @@
+## License
+   © 2026 Elhabchi Mohammed. All Rights Reserved.
+
 # Maison Soleil
 
 Application de restaurant construite avec React, Vite, Tailwind CSS, Express et MongoDB.
